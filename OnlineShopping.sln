@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopping.Customers", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopping.Accounts", "OnlineShopping.Accounts\OnlineShopping.Accounts.csproj", "{7EBD3FC2-E6EB-4476-A1FF-4F3957CE9563}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping.Accounting", "OnlineShopping.Accounting\OnlineShopping.Accounting.csproj", "{E6BE322D-5C20-4964-9A13-528AB1A0FA51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopping.Accounting", "OnlineShopping.Accounting\OnlineShopping.Accounting.csproj", "{E6BE322D-5C20-4964-9A13-528AB1A0FA51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping.Warehouses", "OnlineShopping.Warehouses\OnlineShopping.Warehouses.csproj", "{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShopping.Warehouses", "OnlineShopping.Warehouses\OnlineShopping.Warehouses.csproj", "{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. CrossCutting", "0. CrossCutting", "{FF86D0C7-8967-4313-B0EA-6A20362F370B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShopping", "OnlineShopping\OnlineShopping.csproj", "{81EF5D89-B55F-44A8-BFB1-C231F9315409}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,10 @@ Global
 		{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81EF5D89-B55F-44A8-BFB1-C231F9315409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EF5D89-B55F-44A8-BFB1-C231F9315409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81EF5D89-B55F-44A8-BFB1-C231F9315409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EF5D89-B55F-44A8-BFB1-C231F9315409}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{7EBD3FC2-E6EB-4476-A1FF-4F3957CE9563} = {397EFE01-0272-441F-90B3-A40CD27159AD}
 		{E6BE322D-5C20-4964-9A13-528AB1A0FA51} = {397EFE01-0272-441F-90B3-A40CD27159AD}
 		{6BF9104B-3E83-48C9-8DBC-A4988AA4A45E} = {4396BE03-5E1F-4E82-8B40-83C3332755E2}
+		{81EF5D89-B55F-44A8-BFB1-C231F9315409} = {FF86D0C7-8967-4313-B0EA-6A20362F370B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02DDAAE2-5A53-4C60-83CD-B9981CFFFA59}
