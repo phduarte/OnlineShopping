@@ -2,7 +2,7 @@
 
 ### UML Component Diagram Example
 
-An example of UML 2.5 component diagram for online shopping. The diagram shows "white-box" view of the internal structure of three related subsystems - WebStore, Warehouses, and Accounting. In UML «Subsystem» is a standard component stereotype for larger components, usually containing some smaller components.
+An example of UML 2.5 component diagram for online shopping. The diagram shows "white-box" view of the internal structure of three related subsystems - WebStore, Warehouses, and Accounting. In UML Â«SubsystemÂ» is a standard component stereotype for larger components, usually containing some smaller components.
 
 ![img](component-example-retail-website.png)
 
@@ -14,8 +14,6 @@ Accounting subsystem provides two interfaces - Manage Orders and Manage Customer
 
 Warehouses subsystem provides two interfaces Search Inventory and Manage Inventory used by other subsystems and wired through dependencies.
 
-*Copyright © 2009-2020 uml-diagrams.org. All rights reserved.*
-
-## Referências
+## ReferÃªncias
 
 [uml-diagrams.org](https://www.uml-diagrams.org/examples/online-shopping-uml-component-diagram-example.html?context=cmp-examples)
